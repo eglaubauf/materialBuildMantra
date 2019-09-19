@@ -2,7 +2,7 @@
 #LICENSE                            #
 #####################################
 #
-# Copyright (C) 2017  Elmar Glaubauf
+# Copyright (C) 2019  Elmar Glaubauf
 #
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal
@@ -22,14 +22,12 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 # THE SOFTWARE.
 """
-This script will import Geometry Files based on their name into separate Nodes. 
-The Geometry is parsed for "Collide" and "Render". Renderfiles can optionially loaded in as Packed Disk Primitives. 
-(Selection Dialog)
+
+This script will create a Mantra Node Network based on a file selection
 
 Twitter: @eglaubauf
 Web: www.elmar-glaubauf.at
 
-TODO: Enable optional Texture conversion to .rat/rs
 """
 
 
