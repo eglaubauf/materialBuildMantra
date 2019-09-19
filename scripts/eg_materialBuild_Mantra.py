@@ -157,7 +157,7 @@ class MaterialBuild:
         elif channelName is "Reflectivity":
             connector.setNamedInput("reflect",tex, 0)
         elif channelName is "Ambient_Occlusion":
-            mult = self.mb.createNode("multiply")
+            mult = parent.createNode("multiply")
             connector.setNamedInput("basecolor", mult, 0)
             
             bc = parent.glob("Base_Color")[0]
