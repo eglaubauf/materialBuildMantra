@@ -17,6 +17,7 @@
   - bump
   - ao or ambient_occlusion
 - The strings to look for can easily be changed at the bottom of each script
+- A shelf is provided in the toolbar folder (put it to $HOUDINI_USER_PREF_DIR/toolbar)
 
 
 ###  Example Node tree for MaterialBuilder
@@ -36,15 +37,11 @@ sys.path.append("<PathToLib>\scripts")
 ### Notes:
 
 
-All of the scripts are free of charge for free use, commercial or non commercial whatsoever.  Individual Licenses are added to each file as some of these are based on work done by other devs and shall be included in branches, adaptions of this scripts. Anyone is allowed to modify, develop, change the files for his/her purpose.
-But this scripts may brake your workflow. So be warned.
-
-Some of the Files need a modified HOUDINI.ENV. An Example File is provided in the prefs Folder. I try to remove the dependencies to Houdini.env. 
-
-The Scripts in the scripts Folder shall be added as tools to a custom Toolbar. Linking them with some keyboard shortcuts is recommended.
+All of the scripts are free of charge for free use, commercial or non commercial whatsoever. 
+But this scripts may brake your workflow.
 
 ### Contact/Issues/Features/Questions
 
-If you find any bugs, have suggestions or anything else please contact me via Twitter or per Mail. Please check out my other Repos as well, they might be handy to you. For any questions and/or improvement suggestions just contact me via twitter or mail.<br>
+Please check out my other Repos as well, they might be handy to you. For any questions and/or improvement suggestions just contact me via twitter or mail.<br>
 Twitter: @eglaubauf <br>
 Web: www.elmar-glaubauf.at
