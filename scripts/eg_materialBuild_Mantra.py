@@ -113,7 +113,7 @@ class MaterialBuild:
             self.createTexture(mb, pc, self.base_color, "Base_Color")
             if self.ao is not "":
                 self.ao = self.convertFiles(self.ao, 1)
-                createTexture(mb, pc, ao, "Ambient_Occlusion")
+                self.createTexture(mb, pc, self.ao, "Ambient_Occlusion")
         if self.roughness is not "":
             self.roughness = self.convertFiles(self.roughness, 1)
             self.createTexture(mb, pc, self.roughness, "Roughness")
