@@ -6,6 +6,8 @@
  a single file. -->
 
   <shelfSet name="shelf_set_1" label="Create and Refine">
+    <memberToolshelf name="games_development_toolset"/>
+    <memberToolshelf name="shelf_1"/>
     <memberToolshelf name="IO"/>
   </shelfSet>
 
@@ -22,9 +24,9 @@ eg_materialBuildMantra_OCIO.run()]]></script>
   </tool>
 
   <tool name="MaterialBuild Mantra" label="MaterialBuild Mantra" icon="PLASMA_App">
-    <script scriptType="python"><![CDATA[import eg_materialBuildMantra
-reload(eg_materialBuildMantra)
-eg_materialBuildMantra.run()]]></script>
+    <script scriptType="python"><![CDATA[import eg_materialBuild_Mantra
+reload(eg_materialBuild_Mantra)
+eg_materialBuild_Mantra.run()]]></script>
   </tool>
 
   <tool name="toRAT" label="toRAT" icon="PLASMA_App">
