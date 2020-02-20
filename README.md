@@ -1,6 +1,10 @@
 
 ## A MaterialBuilder Script for SideFx Houdinis Mantra
 
+### Moved Permanently
+
+https://github.com/eglaubauf/egMantraTools
+
 ### Features
 
 - Provides a Materialbuilder for PrincipledShader which converts textures to .rat format on import as well
